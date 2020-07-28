@@ -13,6 +13,7 @@
 		9A4382C324CFC80D002C9BAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4382C224CFC80D002C9BAD /* Preview Assets.xcassets */; };
 		9A4382CE24CFC80D002C9BAD /* UnitConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4382CD24CFC80D002C9BAD /* UnitConversionTests.swift */; };
 		9A4382D924CFC80D002C9BAD /* UnitConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4382D824CFC80D002C9BAD /* UnitConversionUITests.swift */; };
+		9A4382E724CFD1CA002C9BAD /* Temprature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4382E624CFD1CA002C9BAD /* Temprature.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		9A4382D424CFC80D002C9BAD /* UnitConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4382D824CFC80D002C9BAD /* UnitConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConversionUITests.swift; sourceTree = "<group>"; };
 		9A4382DA24CFC80D002C9BAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4382E624CFD1CA002C9BAD /* Temprature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temprature.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				9A4382BB24CFC80C002C9BAD /* UnitConversionApp.swift */,
 				9A4382BD24CFC80C002C9BAD /* ContentView.swift */,
+				9A4382E624CFD1CA002C9BAD /* Temprature.swift */,
 				9A4382BF24CFC80D002C9BAD /* Assets.xcassets */,
 				9A4382C424CFC80D002C9BAD /* Info.plist */,
 				9A4382C124CFC80D002C9BAD /* Preview Content */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4382E724CFD1CA002C9BAD /* Temprature.swift in Sources */,
 				9A4382BE24CFC80C002C9BAD /* ContentView.swift in Sources */,
 				9A4382BC24CFC80C002C9BAD /* UnitConversionApp.swift in Sources */,
 			);
